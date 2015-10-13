@@ -1,0 +1,460 @@
+﻿Compilación iniciada a las 13/10/2015 15:14:16.
+     1>Proyecto "D:\Users\rubenie\Documents\GitHub\DEV_MY_ENGINE\DEV_MY_ENGINE\Motor2D\Motor2D.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _ITERATOR_DEBUG_LEVEL=0 /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt j1FileSystem.cpp
+         j1FileSystem.cpp
+         Nota: inclusión del archivo: d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\p2Defs.h
+         Nota: inclusión del archivo:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
+         Nota: inclusión del archivo: d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\j1App.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\p2List.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\j1Module.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\p2SString.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\PugiXml\src\pugixml.hpp
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\pugixml\src\pugiconfig.hpp
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef
+         Nota: inclusión del archivo:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
+         Nota: inclusión del archivo:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
+         Nota: inclusión del archivo:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream
+         Nota: inclusión del archivo:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios
+         Nota: inclusión del archivo:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum
+         Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
+         Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
+         Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
+         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
+         Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
+         Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
+         Nota: inclusión del archivo:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf
+         Nota: inclusión del archivo:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase
+         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale
+         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring
+         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept
+         Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring
+         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0
+         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits
+         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h
+         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat
+         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h
+         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h
+         Nota: inclusión del archivo:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar
+         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h
+         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
+         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new
+         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility
+         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility
+         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd
+         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h
+         Nota: inclusión del archivo:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits
+         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap
+         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h
+         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h
+         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h
+         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h
+         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h
+         Nota: inclusión del archivo:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h
+         Nota: inclusión del archivo:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h
+         Nota: inclusión del archivo:                    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h
+         Nota: inclusión del archivo:                     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h
+         Nota: inclusión del archivo:                      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h
+         Nota: inclusión del archivo:                       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h
+         Nota: inclusión del archivo:                        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h
+         Nota: inclusión del archivo:                         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h
+         Nota: inclusión del archivo:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h
+         Nota: inclusión del archivo:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo
+         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo
+         Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h
+         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h
+         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h
+         Nota: inclusión del archivo:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug
+         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet
+         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error
+         Nota: inclusión del archivo:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno
+         Nota: inclusión del archivo:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
+         Nota: inclusión del archivo:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\PugiXml\src\pugixml.hpp
+         Nota: inclusión del archivo: d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\p2Log.h
+         Nota: inclusión del archivo:  C:\Program Files (x86)\Windows Kits\8.1\Include\um\windows.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\excpt.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h
+         Nota: inclusión del archivo:       C:\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_undef.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\driverspecs.h
+         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\shared\sdv_driverspecs.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\kernelspecs.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack4.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack2.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\pshpack8.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\poppack.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apiset.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processenv.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\fileapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\debugapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\utilapiset.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\handleapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\errhandlingapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\fibersapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\namedpipeapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ioapiset.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\synchapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\interlockedapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\memoryapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoollegacyapiset.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoolapiset.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\bemapiset.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\jobapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\wow64apiset.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\libloaderapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\securitybaseapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\namespaceapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\systemtopologyapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\processtopologyapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\securityappcontainer.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\realtimeapiset.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\tvout.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\datetimeapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\stringapiset.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnls.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\consoleapi.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winver.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\verrsrc.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\reason.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wnnc.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\cderr.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\dde.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\ddeml.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\dlgs.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\lzexpand.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mciapi.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi2.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\playsoundapi.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmeapi.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\timeapi.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\joystickapi.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\nb30.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdce.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdcep.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcnterr.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcasync.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\inaddr.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\bcrypt.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ncrypt.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winefs.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winscard.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h
+         Nota: inclusión del archivo:     c:\program files (x86)\windows kits\8.1\include\shared\rpcndr.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsip.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcsal.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:     c:\program files (x86)\windows kits\8.1\include\shared\wtypesbase.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\shared\guiddef.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winsmcrd.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winspool.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\ole2.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\objbase.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwnbase.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidlbase.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h
+         Nota: inclusión del archivo:      C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\um\unknwn.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\um\oleidl.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\um\servprov.h
+         Nota: inclusión del archivo:      c:\program files (x86)\windows kits\8.1\include\um\msxml.h
+         Nota: inclusión del archivo:       c:\program files (x86)\windows kits\8.1\include\um\oaidl.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\um\propidl.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\oleauto.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\commdlg.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h
+         Nota: inclusión del archivo:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h
+         Nota: inclusión del archivo: d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\j1FileSystem.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\PhysFS/include/physfs.h
+         Nota: inclusión del archivo: d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\SDL/include/SDL.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_main.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_stdinc.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_config.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_platform.h
+         Nota: inclusión del archivo:      d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:      d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_assert.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_atomic.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_audio.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_error.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_endian.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_mutex.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_thread.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\process.h
+         Nota: inclusión del archivo:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_rwops.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_clipboard.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_cpuinfo.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_events.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_video.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_pixels.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_rect.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_surface.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_blendmode.h
+         Nota: inclusión del archivo:      d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:      d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_keyboard.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_keycode.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_scancode.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_mouse.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_joystick.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_gamecontroller.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_quit.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_gesture.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_touch.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:     d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:    d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_filesystem.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_haptic.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_hints.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_loadso.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_log.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_messagebox.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_power.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_render.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_system.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_timer.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\SDL_version.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:   d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\begin_code.h
+         Nota: inclusión del archivo:  d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\sdl\include\close_code.h
+     1>d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\j1filesystem.cpp(88): warning C4244: 'inicializando' : conversión de 'PHYSFS_sint64' a 'PHYSFS_sint32'; posible pérdida de datos
+     1>d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\j1filesystem.cpp(93): warning C4244: 'inicializando' : conversión de 'PHYSFS_sint64' a 'int'; posible pérdida de datos
+     1>d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\j1filesystem.cpp(158): warning C4244: 'inicializando' : conversión de 'PHYSFS_sint64' a 'unsigned int'; posible pérdida de datos
+     1>d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\j1filesystem.cpp(159): warning C4244: 'argumento' : conversión de 'PHYSFS_sint64' a 'PHYSFS_uint32'; posible pérdida de datos
+     1>d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\j1filesystem.cpp(163): warning C4244: 'argumento' : conversión de 'PHYSFS_sint64' a 'int'; posible pérdida de datos
+     1>d:\users\rubenie\documents\github\dev_my_engine\dev_my_engine\motor2d\j1filesystem.cpp(198): warning C4244: 'inicializando' : conversión de 'PHYSFS_sint64' a 'unsigned int'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\rubenie\Documents\GitHub\DEV_MY_ENGINE\DEV_MY_ENGINE\Debug\Motor 2D.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\rubenie\Documents\GitHub\DEV_MY_ENGINE\DEV_MY_ENGINE\Debug\Motor 2D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\rubenie\Documents\GitHub\DEV_MY_ENGINE\DEV_MY_ENGINE\Debug\Motor 2D.lib" /MACHINE:X86 Debug\j1FileSystem.obj
+         Debug\j1Main.obj
+         Debug\j1App.obj
+         Debug\j1Audio.obj
+         Debug\j1Input.obj
+         Debug\j1Scene.obj
+         Debug\p2Log.obj
+         Debug\j1Render.obj
+         Debug\j1Textures.obj
+         Debug\j1Window.obj
+         Debug\pugixml.obj
+         Motor2D.vcxproj -> D:\Users\rubenie\Documents\GitHub\DEV_MY_ENGINE\DEV_MY_ENGINE\Debug\Motor 2D.exe
+     1>Compilación del proyecto terminada "D:\Users\rubenie\Documents\GitHub\DEV_MY_ENGINE\DEV_MY_ENGINE\Motor2D\Motor2D.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.50
