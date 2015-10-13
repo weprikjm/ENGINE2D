@@ -35,6 +35,8 @@ bool j1FileSystem::Awake(pugi::xml_node& fileSystemData)
 
 	SetWriteDir();
 
+	showSearchPath();
+
 	return ret;
 
 }
@@ -66,15 +68,20 @@ bool j1FileSystem::SetWriteDir()
 	if (!PHYSFS_setWriteDir(SDL_GetBasePath()))
 		ret = false, LOG("Error setting the Write Dir.");
 
+	AddPath(PHYSFS_getWriteDir());
+
 	return ret;
 }
 
-
-// Check if a file is a directory
-bool j1FileSystem::IsDirectory(const char* file) const
+void j1FileSystem::showSearchPath()
 {
-	return PHYSFS_isDirectory(file) != 0;
+	char **i;
+
+	for (i = PHYSFS_getSearchPath(); *i != NULL; i++)
+		LOG("[%s] is in the search path.\n", *i);
+
 }
+
 
 // Read a whole file and put it in a new buffer
 unsigned int j1FileSystem::Load(const char* file, char** buffer) const
@@ -106,6 +113,10 @@ unsigned int j1FileSystem::Load(const char* file, char** buffer) const
 	else
 		LOG("File System error while opening file %s: %s\n", file, PHYSFS_getLastError());
 
+	
+
+	
+
 	return ret;
 }
 
@@ -134,7 +145,7 @@ int close_sdl_rwops(SDL_RWops *rw)
 	return 0;
 }
 
-bool j1FileSystem::doesFileExist(const char* file)
+bool j1FileSystem::doesFileExist(const char* file)const
 {
 	return PHYSFS_exists(file) ? true : false;
 }
@@ -185,12 +196,17 @@ SDL_RWops* j1FileSystem::LoadFile(const char* file, char* myBuff, PHYSFS_sint64*
 
 
 // Save a whole buffer to disk
-unsigned int j1FileSystem::Save(const char* file, const char* buffer, unsigned int size) const
+unsigned int j1FileSystem::Save(const char* file, const char* buffer, unsigned int size)const
 {
 	unsigned int ret = 0;
 
-	if (App->fs->doesFileExist("Partida.xml"))
+
+
+	if (!PHYSFS_delete(file))
 	{
+		LOG("FILE NOT FOUND");
+	}
+
 		PHYSFS_file* fs_file = PHYSFS_openWrite(file);
 
 		if (fs_file != NULL)
@@ -206,16 +222,9 @@ unsigned int j1FileSystem::Save(const char* file, const char* buffer, unsigned i
 		}
 		else
 			LOG("File System error while opening file %s: %s\n", file, PHYSFS_getLastError());
-	}
-	else
-	{
-		PHYSFS_file* fs_file = PHYSFS_openWrite(file);
-		pugi::xml_document saveData;
+	
 
-		saveData.append_child("config");
 
-	}
-		LOG("Error loading file %s: File doesn't exist", file);
 	
 	return ret;
 }

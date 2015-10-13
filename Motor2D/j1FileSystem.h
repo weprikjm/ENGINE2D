@@ -25,12 +25,15 @@ public:
 
 	// Utility functions
 	bool AddPath(const char* path_or_zip);
-	bool IsDirectory(const char* file) const;
-	bool doesFileExist(const char* file);
 	
+	bool doesFileExist(const char* file)const;//Do the const
+	
+
+
 	//Config
 	bool SetWriteDir();
 
+	void showSearchPath();
 
 	// Open for Read/Write
 	unsigned int Load(const char* file, char** buffer) const;

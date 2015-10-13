@@ -273,8 +273,57 @@ bool j1App::LoadGameNow()
 {
 	want_to_load = false;
 	
+	
+
+
+	bool ret = true;
+
+	if (App->fs->doesFileExist("Partida.xml"))
+	{
+
+		char* buf;
+		int size = App->fs->Load("Partida.xml", &buf);
+		pugi::xml_parse_result result = saveData.load_buffer(buf, size);
+		//	RELEASE(buf);
+
+		if (result == NULL)
+		{
+			LOG("Could not load map xml file config.xml. pugi error: %s", result.description());
+			ret = false;
+		}
+		else
+		{
+			gameData = &saveData.child("GameData");
+		}
+
+
+		p2List_item<j1Module*>* item;
+		item = modules.start;
+
+		while (item != NULL && ret == true)
+		{
+			ret = item->data->LoadData(config.child(item->data->name.GetString()));
+			item = item->next;
+		}
+	
+	}
+	else
+	{ 
+		LOG("Error loading the game. The file doesn't exist.");
+		ret = false;
+	}
+
+		
+
+
+
+
 	return true;
 }
+
+
+
+
 bool j1App::SaveGameNow()
 {
 	want_to_save = false;
@@ -295,10 +344,31 @@ bool j1App::SaveGameNow()
 			{
 				LOG("Could not load map xml file Partida.xml. pugi error: %s", result.description());
 				ret = false;
+				return ret;
 			}
 			else
 			{
 				gameData = &saveData.child("GameData");
+			}
+
+			//We call saveData in each module to gather all the data needed to save the Game.
+			p2List_item<j1Module*>* item;
+			item = modules.start;
+
+			while (item != NULL && ret == true)
+			{
+				ret = item->data->SaveData(saveData.child(item->data->name.GetString()));//We call SaveData in every module
+				item = item->next;
+			}
+
+			if (ret == true)
+			{
+				std::stringstream stream;
+				saveData.save(stream);
+
+				// we are done, so write data to disk
+				fs->Save(save_game.GetString(), stream.str().c_str(), stream.str().length());
+				LOG("... finished saving", save_game.GetString());
 			}
 
 		}

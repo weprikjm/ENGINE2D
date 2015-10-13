@@ -43,7 +43,7 @@ public:
 	bool j1Render::SaveData(pugi::xml_node&);
 	
 
-	bool j1Render::LoadData(pugi::xml_node);
+	bool j1Render::LoadData(pugi::xml_node&);
 
 
 

@@ -49,9 +49,9 @@ bool j1Scene::PreUpdate()
 bool j1Scene::Update(float dt)
 {
 	// TODO 5: Call load / save methods when pressing l/s
-	if (App->input->GetKey(SDL_SCANCODE_S) == KEY_REPEAT)
+	if (App->input->GetKey(SDL_SCANCODE_S) == KEY_DOWN)
 		App->SaveWarning();
-	if (App->input->GetKey(SDL_SCANCODE_L) == KEY_REPEAT)
+	if (App->input->GetKey(SDL_SCANCODE_L) == KEY_DOWN)
 		App->LoadWarning();
 
 	if (App->input->GetKey(SDL_SCANCODE_UP) == KEY_REPEAT)

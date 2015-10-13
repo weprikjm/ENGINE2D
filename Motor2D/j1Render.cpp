@@ -228,14 +228,20 @@ bool j1Render::DrawCircle(int x, int y, int radius, Uint8 r, Uint8 g, Uint8 b, U
 bool j1Render::SaveData(pugi::xml_node& renderSaveData)
 {
 	bool ret = true;
-
-	renderSaveData.append_child("camera").append_attribute("coordX").set_value(camera.x);
-	renderSaveData.append_child("camera").append_attribute("coordY").set_value(camera.y);
-
+	if (renderSaveData.child("camera") == NULL)
+	{
+		renderSaveData.append_child("camera").append_attribute("coordX").set_value(camera.x);
+		renderSaveData.append_child("camera").append_attribute("coordY").set_value(camera.y);
+	}
+	else
+	{
+		renderSaveData.child("camera").attribute("coordX").set_value(camera.x);
+		renderSaveData.child("camera").attribute("coordY").set_value(camera.y);
+	}
 	return ret;
 }
 
-bool j1Render::LoadData(pugi::xml_node renderSaveData)
+bool j1Render::LoadData(pugi::xml_node& renderSaveData)
 {
 	bool ret = true;
 

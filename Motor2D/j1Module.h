@@ -58,12 +58,12 @@ public:
 		return true;
 	}
 
-	virtual bool SaveData(pugi::xml_node)
+	virtual bool SaveData(pugi::xml_node&)
 	{
 		return true;
 	}
 
-	virtual bool LoadData(pugi::xml_node)
+	virtual bool LoadData(pugi::xml_node&)
 	{
 		return true;
 	}
