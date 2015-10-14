@@ -28,7 +28,7 @@ public:
 	
 	bool doesFileExist(const char* file)const;//Do the const
 	
-
+	void FileDelete();
 
 	//Config
 	bool SetWriteDir();

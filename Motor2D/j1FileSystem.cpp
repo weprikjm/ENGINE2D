@@ -231,3 +231,11 @@ unsigned int j1FileSystem::Save(const char* file, const char* buffer, unsigned i
 	return ret;
 }
 
+
+void j1FileSystem::FileDelete()
+{
+
+	
+
+}
+

@@ -324,54 +324,15 @@ bool j1App::LoadGameNow()
 bool j1App::SaveGameNow()
 {
 	want_to_save = false;
-
+	saveData.reset();
 	bool ret = true;
+
+	
 
 	char* buf;
 	save_game.create("Partida.xml");
 	
 
-		int size = App->fs->Load("Partida.xml", &buf);
-		
-		if (size != 0)//If the file exists
-		{
-			//pugi::xml_parse_result result = saveData.load_buffer(buf, size);
-			saveData.append_child("GameData");
-			RELEASE(buf);
-
-			/*if (result == NULL)
-			{
-				LOG("Could not load map xml file Partida.xml. pugi error: %s", result.description());
-				ret = false;
-				return ret;
-			}*/
-		
-				gameData = &saveData.child("GameData");
-			
-
-			//We call saveData in each module to gather all the data needed to save the Game.
-			p2List_item<j1Module*>* item;
-			item = modules.start;
-
-			while (item != NULL && ret == true)
-			{
-				ret = item->data->SaveData(saveData.child(item->data->name.GetString()));//We call SaveData in every module
-				item = item->next;
-			}
-
-			if (ret == true)
-			{
-				std::stringstream stream;
-				saveData.save(stream);
-
-				// we are done, so write data to disk
-				fs->Save(save_game.GetString(), stream.str().c_str(), stream.str().length());
-				LOG("... finished saving", save_game.GetString());
-			}
-
-		}
-		else
-		{
 			save_game.create("Partida.xml");
 			gameData = &saveData.append_child("GameData");
 
@@ -397,7 +358,7 @@ bool j1App::SaveGameNow()
 
 			
 
-		}
+		
 
 	return true;
 
