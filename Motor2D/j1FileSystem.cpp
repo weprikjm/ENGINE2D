@@ -19,6 +19,8 @@ j1FileSystem::j1FileSystem() : j1Module()
 
 	AddPath(".");
 
+	SetWriteDir();
+
 }
 
 // Destructor
@@ -33,7 +35,7 @@ bool j1FileSystem::Awake(pugi::xml_node& fileSystemData)
 
 	AddPath(fileSystemData.child("path").attribute("value").as_string());//We pass the path of the zip we want to load
 
-	SetWriteDir();
+	
 
 	showSearchPath();
 
@@ -69,6 +71,7 @@ bool j1FileSystem::SetWriteDir()
 		ret = false, LOG("Error setting the Write Dir.");
 
 	AddPath(PHYSFS_getWriteDir());
+	LOG("Write dir: %s", PHYSFS_getWriteDir());
 
 	return ret;
 }
@@ -199,7 +202,6 @@ SDL_RWops* j1FileSystem::LoadFile(const char* file, char* myBuff, PHYSFS_sint64*
 unsigned int j1FileSystem::Save(const char* file, const char* buffer, unsigned int size)const
 {
 	unsigned int ret = 0;
-
 
 
 	if (!PHYSFS_delete(file))

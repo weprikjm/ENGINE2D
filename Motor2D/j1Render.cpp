@@ -231,7 +231,7 @@ bool j1Render::SaveData(pugi::xml_node& renderSaveData)
 	if (renderSaveData.child("camera") == NULL)
 	{
 		renderSaveData.append_child("camera").append_attribute("coordX").set_value(camera.x);
-		renderSaveData.append_child("camera").append_attribute("coordY").set_value(camera.y);
+		renderSaveData.child("camera").append_attribute("coordY").set_value(camera.y);
 	}
 	else
 	{
@@ -244,6 +244,8 @@ bool j1Render::SaveData(pugi::xml_node& renderSaveData)
 bool j1Render::LoadData(pugi::xml_node& renderSaveData)
 {
 	bool ret = true;
+
+
 
 	camera.x = renderSaveData.child("camera").attribute("coordX").as_int();
 	camera.y = renderSaveData.child("camera").attribute("coordY").as_int();

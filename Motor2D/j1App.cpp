@@ -273,9 +273,6 @@ bool j1App::LoadGameNow()
 {
 	want_to_load = false;
 	
-	
-
-
 	bool ret = true;
 
 	if (App->fs->doesFileExist("Partida.xml"))
@@ -283,7 +280,7 @@ bool j1App::LoadGameNow()
 
 		char* buf;
 		int size = App->fs->Load("Partida.xml", &buf);
-		pugi::xml_parse_result result = saveData.load_buffer(buf, size);
+		pugi::xml_parse_result result = saveData.load_buffer(buf, size);//ERROR RARO
 		//	RELEASE(buf);
 
 		if (result == NULL)
@@ -302,7 +299,7 @@ bool j1App::LoadGameNow()
 
 		while (item != NULL && ret == true)
 		{
-			ret = item->data->LoadData(config.child(item->data->name.GetString()));
+			ret = item->data->LoadData(gameData->child(item->data->name.GetString()));
 			item = item->next;
 		}
 	
@@ -331,25 +328,26 @@ bool j1App::SaveGameNow()
 	bool ret = true;
 
 	char* buf;
+	save_game.create("Partida.xml");
+	
 
 		int size = App->fs->Load("Partida.xml", &buf);
 		
-		if (size != 0)
+		if (size != 0)//If the file exists
 		{
-			pugi::xml_parse_result result = saveData.load_buffer(buf, size);
-
+			//pugi::xml_parse_result result = saveData.load_buffer(buf, size);
+			saveData.append_child("GameData");
 			RELEASE(buf);
 
-			if (result == NULL)
+			/*if (result == NULL)
 			{
 				LOG("Could not load map xml file Partida.xml. pugi error: %s", result.description());
 				ret = false;
 				return ret;
-			}
-			else
-			{
+			}*/
+		
 				gameData = &saveData.child("GameData");
-			}
+			
 
 			//We call saveData in each module to gather all the data needed to save the Game.
 			p2List_item<j1Module*>* item;
@@ -375,23 +373,22 @@ bool j1App::SaveGameNow()
 		else
 		{
 			save_game.create("Partida.xml");
-			saveData.append_child("GameData");
+			gameData = &saveData.append_child("GameData");
 
 			p2List_item<j1Module*>* item;
 			item = modules.start;
 
 			while (item != NULL && ret == true) 
 			{
-				ret = item->data->SaveData(saveData.append_child(item->data->name.GetString()));//We call SaveData in every module
+				ret = item->data->SaveData(gameData->append_child(item->data->name.GetString()));//We call SaveData in every module
 				item = item->next;
 			}
 
 			if (ret == true)
 			{
 				std::stringstream stream;
-				saveData.save(stream);
+				saveData.save(stream);//stream is the buffer for pugi::xml_document.save()
 
-				// we are done, so write data to disk
 				fs->Save(save_game.GetString(), stream.str().c_str(), stream.str().length());
 				LOG("... finished saving", save_game.GetString());
 			}
