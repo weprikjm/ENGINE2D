@@ -10,7 +10,7 @@
 #include "j1Scene.h"
 #include "j1FileSystem.h"
 #include "j1App.h"
-
+#include "j1Map.h"
 
 #include "PugiXml\src\pugixml.hpp"
 
@@ -28,14 +28,16 @@ j1App::j1App(int _argc, char* _args[])
 	audio = new j1Audio();
 	scene = new j1Scene();
 	fs = new j1FileSystem();
+	map = new j1Map();
 
 	// Ordered for awake / Start / Update
 	// Reverse order of CleanUp
+	AddModule(fs);
 	AddModule(input);
 	AddModule(win);
 	AddModule(tex);
 	AddModule(audio);
-	AddModule(fs);
+	AddModule(map);
 	AddModule(scene);
 
 	// render last to swap buffer

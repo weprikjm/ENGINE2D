@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <GameData>
+	<file_system />
 	<input />
 	<window />
 	<textures />
-	<audio />
-	<file_system />
+	<audio volume="0" />
+	<map />
 	<scene />
 	<renderer>
-		<camera coordX="84" coordY="76" />
+		<camera coordX="4" coordY="10" />
 	</renderer>
 </GameData>

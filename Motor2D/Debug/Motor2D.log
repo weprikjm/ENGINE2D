@@ -1,8 +1,8 @@
-﻿Build started 14/10/2015 22:34:05.
+﻿Build started 18/10/2015 16:37:51.
      1>Project "C:\Users\Ruben\Documents\GitHub\ENGINE2D\Motor2D\Motor2D.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _ITERATOR_DEBUG_LEVEL=0 /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt j1App.cpp
-         j1App.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _ITERATOR_DEBUG_LEVEL=0 /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt j1Audio.cpp
+         j1Audio.cpp
          Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\p2Defs.h
          Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
          Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
@@ -222,101 +222,102 @@
          Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h
          Note: including file:   C:\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h
          Note: including file:    C:\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h
-         Note: including file: C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream
-         Note: including file:  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string
-         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator
-         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream
-         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream
-         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios
-         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum
-         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
-         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
-         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
-         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
-         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
-         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
-         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
-         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
-         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
-         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
-         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf
-         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase
-         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale
-         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring
-         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept
-         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception
-         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef
-         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef
-         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
-         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list
-         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h
-         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h
-         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring
-         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0
-         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits
-         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h
-         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat
-         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h
-         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h
-         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar
-         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h
-         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
-         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new
-         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility
-         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility
-         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd
-         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h
-         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits
-         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap
-         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h
-         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h
-         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h
-         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h
-         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h
-         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h
-         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h
-         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h
-         Note: including file:                    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h
-         Note: including file:                     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h
-         Note: including file:                      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h
-         Note: including file:                       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h
-         Note: including file:                        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h
-         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h
-         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo
-         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo
-         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h
-         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h
-         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug
-         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet
-         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error
-         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno
-         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
-         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h
-         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1Window.h
+         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1App.h
+         Note: including file:  c:\users\ruben\documents\github\engine2d\motor2d\p2List.h
          Note: including file:  c:\users\ruben\documents\github\engine2d\motor2d\j1Module.h
          Note: including file:   c:\users\ruben\documents\github\engine2d\motor2d\p2SString.h
          Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\assert.h
          Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
          Note: including file:   c:\users\ruben\documents\github\engine2d\motor2d\PugiXml\src\pugixml.hpp
          Note: including file:    c:\users\ruben\documents\github\engine2d\motor2d\pugixml\src\pugiconfig.hpp
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\exception
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstddef
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstddef
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\initializer_list
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\eh.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator
+         Note: including file:     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\istream
+         Note: including file:      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream
+         Note: including file:       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios
+         Note: including file:        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
+         Note: including file:         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf
+         Note: including file:          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstring
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdexcept
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xstring
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmemory0
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ymath.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cfloat
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\float.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtwrn.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cwchar
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\new
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iosfwd
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdbg.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\type_traits
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xrefwrap
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xatomic0.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h
+         Note: including file:                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h
+         Note: including file:                   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h
+         Note: including file:                    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h
+         Note: including file:                     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h
+         Note: including file:                      C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h
+         Note: including file:                       C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h
+         Note: including file:                        C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h
+         Note: including file:                         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h
+         Note: including file:                C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h
+         Note: including file:                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\typeinfo
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocinfo.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\locale.h
+         Note: including file:               C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xdebug
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xfacet
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\system_error
+         Note: including file:            C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cerrno
+         Note: including file:             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
+         Note: including file:              C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+         Note: including file:           C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h
+         Note: including file:    C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string
          Note: including file:  c:\users\ruben\documents\github\engine2d\motor2d\PugiXml\src\pugixml.hpp
-         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1Input.h
-         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1Render.h
+         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1FileSystem.h
+         Note: including file:  c:\users\ruben\documents\github\engine2d\motor2d\PhysFS/include/physfs.h
+         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1Audio.h
          Note: including file:  c:\users\ruben\documents\github\engine2d\motor2d\SDL/include/SDL.h
          Note: including file:   c:\users\ruben\documents\github\engine2d\motor2d\sdl\include\SDL_main.h
          Note: including file:    c:\users\ruben\documents\github\engine2d\motor2d\sdl\include\SDL_stdinc.h
@@ -434,27 +435,17 @@
          Note: including file:    c:\users\ruben\documents\github\engine2d\motor2d\sdl\include\close_code.h
          Note: including file:   c:\users\ruben\documents\github\engine2d\motor2d\sdl\include\begin_code.h
          Note: including file:   c:\users\ruben\documents\github\engine2d\motor2d\sdl\include\close_code.h
-         Note: including file:  c:\users\ruben\documents\github\engine2d\motor2d\p2Point.h
-         Note: including file:   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
-         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1Textures.h
-         Note: including file:  c:\users\ruben\documents\github\engine2d\motor2d\p2List.h
          Note: including file:  c:\users\ruben\documents\github\engine2d\motor2d\SDL_mixer\include\SDL_mixer.h
          Note: including file:   c:\users\ruben\documents\github\engine2d\motor2d\SDL/include/begin_code.h
          Note: including file:   c:\users\ruben\documents\github\engine2d\motor2d\SDL/include/close_code.h
-         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1Audio.h
-         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1Scene.h
-         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1FileSystem.h
-         Note: including file:  c:\users\ruben\documents\github\engine2d\motor2d\PhysFS/include/physfs.h
-         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\j1App.h
-         Note: including file:  c:\users\ruben\documents\github\engine2d\motor2d\PugiXml\src\pugixml.hpp
-         Note: including file: c:\users\ruben\documents\github\engine2d\motor2d\PugiXml\src\pugixml.hpp
-     1>c:\users\ruben\documents\github\engine2d\motor2d\j1app.cpp(332): warning C4101: 'buf' : unreferenced local variable
+     1>c:\users\ruben\documents\github\engine2d\motor2d\j1audio.cpp(123): warning C4804: '>' : unsafe use of type 'bool' in operation
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ruben\Documents\GitHub\ENGINE2D\Debug\Motor 2D.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ruben\Documents\GitHub\ENGINE2D\Debug\Motor 2D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ruben\Documents\GitHub\ENGINE2D\Debug\Motor 2D.lib" /MACHINE:X86 Debug\j1FileSystem.obj
          Debug\j1Main.obj
          Debug\j1App.obj
          Debug\j1Audio.obj
          Debug\j1Input.obj
+         Debug\j1Map.obj
          Debug\j1Scene.obj
          Debug\p2Log.obj
          Debug\j1Render.obj
@@ -466,4 +457,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.59
+Time Elapsed 00:00:01.24

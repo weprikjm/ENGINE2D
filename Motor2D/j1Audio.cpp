@@ -19,11 +19,14 @@ j1Audio::~j1Audio()
 {}
 
 // Called before render is available
-bool j1Audio::Awake(pugi::xml_node&)
+bool j1Audio::Awake(pugi::xml_node& audioConfig)
 {
 	LOG("Loading Audio Mixer");
 	bool ret = true;
 	SDL_Init(0);
+
+
+	
 
 	if(SDL_InitSubSystem(SDL_INIT_AUDIO) < 0)
 	{
@@ -50,6 +53,10 @@ bool j1Audio::Awake(pugi::xml_node&)
 		active = false;
 		ret = true;
 	}
+
+	volumeIncrement = audioConfig.attribute("volumeIncrement").as_int();
+	volume = audioConfig.attribute("volume").as_int();
+	Mix_VolumeMusic(volume);
 
 	return ret;
 }
@@ -193,4 +200,54 @@ bool j1Audio::PlayFx(unsigned int id, int repeat)
 	}
 
 	return ret;
+}
+
+bool j1Audio::SetVolumeMusic(int i)
+{
+	bool ret = false;
+	volume = Mix_VolumeMusic(i);
+
+	if (volume < 0)
+		volume = Mix_VolumeMusic(0);
+	else if (volume > MIX_MAX_VOLUME)
+		volume = Mix_VolumeMusic(MIX_MAX_VOLUME);
+	
+	
+	
+	
+
+	return ret = true;
+}
+
+int j1Audio::getVolume(){ return volume; }
+
+int j1Audio::SetVolume(int _volume){ return volume = _volume; }
+
+
+
+
+
+
+int j1Audio::getVolumeIncrement(){ return volumeIncrement; }
+
+int j1Audio::SetVolumeIncrement(int vol){ return volumeIncrement = vol; }
+
+
+
+
+
+
+bool j1Audio::SaveData(pugi::xml_node& audioConfig)
+{
+	audioConfig.append_attribute("volume").set_value(volume);
+	return true;
+}
+
+
+bool j1Audio::LoadData(pugi::xml_node& audioConfig)
+{
+	volume = audioConfig.attribute("volume").as_int();
+	SetVolumeMusic(volume);
+
+	return true;
 }

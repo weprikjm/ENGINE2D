@@ -18,9 +18,17 @@
     <fullscreen_window value="false"/>
   </window>
 
+<audio volume="64"/>
+	
+
+
   <file_system>
     <path value="data.zip"/>
     <path2>data2.zip</path2>
   </file_system>
+
+<map>
+	<folder>maps/</folder>
+<map/>
 
 </config>

@@ -36,7 +36,9 @@ public:
 
 	bool LoadMusic(const char* path);
 
+	bool RaiseVolume();
 
+	bool LowerVolume();
 
 
 
